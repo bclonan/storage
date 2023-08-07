@@ -1,0 +1,75 @@
+{
+    "user": {
+        "id": "123456789",
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "+123456789",
+        "dateOfBirth": "1990-01-01",
+        "socialSecurityNumber": "XXX-XX-XXXX",
+        "address": {
+            "street": "123 Elm St",
+            "city": "Springfield",
+            "state": "IL",
+            "postalCode": "62704",
+            "country": "USA"
+        },
+        "employmentDetails": {
+            "employerName": "Tech Corp",
+            "position": "Software Developer",
+            "income": 75000,
+            "employmentType": "Full-time",
+            "employedSince": "2015-06",
+            "employerPhone": "+123456780"
+        },
+        "loans": [
+            {
+                "loanId": "loan001",
+                "loanAmount": 25000,
+                "purpose": "Home Renovation",
+                "loanType": "Personal Loan",
+                "term": "36 months",
+                "interestRate": 4.5,
+                "startDate": "2023-01-01",
+                "dueDate": "2026-01-01"
+            },
+            {
+                "loanId": "loan002",
+                "loanAmount": 10000,
+                "purpose": "Car Purchase",
+                "loanType": "Auto Loan",
+                "term": "24 months",
+                "interestRate": 3.0,
+                "startDate": "2023-02-01",
+                "dueDate": "2025-02-01"
+            }
+        ],
+        "bankDetails": {
+            "bankName": "Global Bank",
+            "accountNumber": "12345678",
+            "routingNumber": "00112233",
+            "accountType": "Checking"
+        },
+        "creditScore": 725,
+        "userDocuments": {
+            "proofOfIdentity": "URL_TO_ID_DOCUMENT",
+            "proofOfAddress": "URL_TO_ADDRESS_DOCUMENT",
+            "proofOfIncome": "URL_TO_INCOME_DOCUMENT",
+            "creditReport": "URL_TO_CREDIT_REPORT"
+        },
+        "notifications": [
+            {
+                "id": "notif001",
+                "message": "Your loan application has been approved.",
+                "timestamp": "2023-05-10T15:30:00Z",
+                "read": false
+            },
+            {
+                "id": "notif002",
+                "message": "Your monthly payment is due in 5 days.",
+                "timestamp": "2023-05-15T10:30:00Z",
+                "read": true
+            }
+        ]
+    }
+}
